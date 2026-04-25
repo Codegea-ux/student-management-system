@@ -1,0 +1,40 @@
+/* Background */
+body {
+    height: 100vh;
+    margin: 0;
+    background: linear-gradient(135deg, #1e3c72, #2a5298);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Card (login/register box) */
+.card {
+    background: #ffffff;   /* solid white */
+    border-radius: 15px !important;
+    padding: 25px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+}
+
+/* Headings */
+h4 {
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+/* Inputs */
+input {
+    border-radius: 8px !important;
+    border: 1px solid #ccc;
+}
+
+/* Buttons */
+.btn {
+    border-radius: 8px;
+}
+
+/* Links */
+a {
+    text-decoration: none;
+    color: #2a5298;
+}
